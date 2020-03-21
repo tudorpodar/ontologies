@@ -271,6 +271,17 @@
 (related  case52 Italy has-origin-of-infection)
 (related  case52 d16 has-confirmation-date) 
 
+(instance case65 (and Person (equal has-age 57)))
+(related  case65 hospitalized has-status)
+(related  case65 male has-gender)
+(related  case65 Constanta  has-detection-location)
+(related  case65 importedCase has-source-of-infection)
+(related  case65 Belgium has-origin-of-infection)
+(related  case65 d13 has-confirmation-date) 
+(related unknownSourceContact case3 has-direct-contact)
+(related  case65 case 66 case 67 case 68 case100 case 101 case 102  case 119 has-direct-contact)
+
+
 (instance case76 (and Person (equal has-age 44)))
 (related  case76 hospitalized has-status)
 (related  case76 male has-gender)
